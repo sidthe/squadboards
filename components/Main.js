@@ -14,7 +14,8 @@ import VotingPanel from "./parts/VotingPanel"
 import Statistics from "./parts/Statistics"
 import NotFound from "./parts/NotFound"
 
-ReactGA.initialize("UA-103148253-1")
+//add your google analytics id
+ReactGA.initialize("UA-XXXXXXXXX")
 
 const history = createHistory()
 const location = history.location

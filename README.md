@@ -3,6 +3,12 @@ SquadBoards
 
 This repo contains all the code for running the SquadBoards web app. The app is meant to be a collection of developer planning, management and work tools
 
+
+What does it look like?
+-----------
+
+You can use SquadBoards on your own machine or directly in the cloud at http://squadboards.com/
+
 Installation
 -----------
 
