@@ -1,0 +1,6 @@
+#exclude
+*.zip
+/node_modules/
+/public/bundle.js
+/certs/
+/.ebextensions/

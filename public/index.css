@@ -1,0 +1,102 @@
+[data-reactroot] {
+  width: 100% !important
+}
+.w3-card-4 img {
+  width: 100%;
+  max-width: auto;
+  opacity: 0.85;
+}
+
+.w3-indie {
+  font-family: 'Indie Flower', cursive;
+}
+
+.observer {
+  margin-top: 16px;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.votesSettingsDiv {
+  display: inline;
+}
+
+.votesSettingsButton {
+  padding: 5px 14px
+}
+
+.votesSettingsIcon {
+  line-height: unset;
+}
+
+.modal-display {
+  display: block;
+}
+
+#logo-row {
+  margin: 5px 0 5px 0;
+}
+
+#logo {
+  height: 3em;
+  padding: 8px 8px 0 0;
+}
+
+#headerLink {
+  text-decoration: none;
+}
+
+#apps {
+
+}
+
+#votes {
+  margin-left: 8px;
+}
+
+#connection-status {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 0;
+    margin: 15px;
+    display: block;
+}
+
+#exit-icon {
+    height: 22px;
+    width: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 0;
+    margin: 15px;
+    display: block;
+}
+
+#connection-status p {
+    margin: 15px;
+}
+
+#connection-status.connected {
+    background-color: #6abc6d;
+}
+
+#connection-status.disconnected {
+  animation: blink-animation 2s steps(2, start) infinite;
+  -webkit-animation: blink-animation 2s steps(2, start) infinite;
+  background-color: #ff4081;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
